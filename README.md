@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+# My Awesome Project
+Workout Wingman was designed to help you keep better track of your daily workout and the exercises you like. With a database of over 1300 exercises to choose from, Workout Wingman has you covered!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![alt tag](https://media.giphy.com/media/YWPV3YrJbluYVGZVhs/giphy.gif)
 
-## Available Scripts
+## How It's Made:
 
-In the project directory, you can run:
+**Tech used:** React, JavaScript, RestAPI, HTML, CSS
 
-### `npm start`
+Originally started out the project using vanilla JavaScript, but after some trial and error, decided that React would be best use for this app. React and it's libraries are used to route and render all the pages. Using React's hooks (useEffect and useState), I was able to interact with a RestAPI to get exercise data which the user can filter as desired while controlling side effects and storing valuable data in state. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Optimizations
+1. Looking to implement a Node backend in the future.
+2. User Auth for login
+3. Expanding database for users to add more information about their exercises (sets, reps, any pertinent info)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Lessons Learned:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sometimes it is best to sit back and re-evaluate the original plan to see how things can be done better, even if that involves scraping and redoing part of the project. At the same time, it can be used as a learning experiment to see how you might be able to integrate new tech into your projects.
